@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  vertical-align: middle;
+  width: 16%;
+  height: 60px;
+}
+
+.class-green {
+  background-color: lightgreen;
+}
+
+.class-blue {
+  background-color:lightblue;
+}
+
+.class-yellow {
+  background-color:lightyellow;
+}
+
+.class-gray {
+  background-color:lightgray;
+}
