@@ -12,21 +12,36 @@
 
     </div>
 
+    <!--Form Section-->
     <div class="UserFeedback">
 
-        <form name="Feedback">
+        <form name="feedback">
             <p>
-            User's First Name:<input type="text" name="fname"  placeholder="anonymous" required>
-            <br>
-            User's Last Name:<input type="text" name="lname"  placeholder="anonymous" required>
-            <br>
-            User's Email: <input type="email" name="mail" placeholder="name@domain.com">
+            User's First Name:<input type="text" name="fname"  placeholder="anonymous" required><br>
+            User's Last Name:<input type="text" name="lname"  placeholder="anonymous" required><br>
+            User's Email: <input type="email" name="mail" placeholder="name@domain.com"><br>
+            </p>
+
+            <p>
+                Please select your birthday:
+                <input type="date" name="birthday">
+            </p>
+
+            <p>
+                What is the current time?
+                <input type="time" name="timetoday">
+            </p>
+
+            <p>
+                Please pick a favorite color:
+                <input type="color" name="favcolor" value="ff0000">
+
             </p>
 
             <p>
             Would you suggest this website to others?
-                Yes <input type="radio" name="opinion" value="yes">
-                No <input type="radio" name="opinion" value="no">
+                <label> Yes <input type="radio" name="opinion" value="yes"> </label>
+                <label> No  <input type="radio" name="opinion" value="no"> </label>
             </p>
 
             <p>
@@ -35,19 +50,18 @@
 			<label> Facebook <input type="checkbox" name="websites" value="facebook"></label>
 			<label> Twitter(X) <input type="checkbox" name="websites" value="twitter"></label>
 			<label> Time <input type="checkbox" name="websites" value="time"></label>
-
+            <label> Youtube <input type="checkbox" name="websites" value="youtube"></label>
+            <label> Wikipedia <input type="checkbox" name="websites" value="wikipedia"></label>
             </p>
 
             <p>
                 Please rate the website on a scale of 1 - 10
-				<input type="range" id="rating" name="rate" min="0" max="10" step="1" value="5">
-                
+				<input type="range" id="rating" name="rate" min="0" max="9" step="1" value="5">
             </p>
 
             <p>
-                Comments:
-                <br>
-                <textarea name="comment" id="" cols="100" rows="10">
+                Comments: <br>
+                <textarea name="comment" cols="100" rows="10">
 			    </textarea>
             </p>
 
